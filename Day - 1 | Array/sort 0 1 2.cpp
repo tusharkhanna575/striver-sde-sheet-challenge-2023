@@ -33,7 +33,8 @@ int main() {
     for(int i: a) {
         cout<<i<<" ";
     }
-    sort_012(a);
+    sort_012(a); // O(n)
+    sort012(a); //O(n*logn)
     cout<<endl<<"Sorted array : ";
     for(int i: a) {
         cout<<i<<" ";
