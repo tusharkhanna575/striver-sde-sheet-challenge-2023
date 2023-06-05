@@ -25,6 +25,7 @@ void sort_012(vector<int> &a) {
 
 int main() {
     int n;
+    cin>>n;
     vector<int> a(n);
     for(int i: a) {
         cin>>i;
