@@ -45,7 +45,7 @@ void sort012(vector<int> &arr) {
 }
 ```
 - Time Complexity : $O(n)$
-- Space Complexity : $O(n)$
+- Space Complexity : $O(1)$
 
 #### Optimal
 ```
@@ -66,4 +66,4 @@ void sort012(vector<int> &arr) {
 }    
 ```
 - Time Complexity : $O(n)$
-- Space Complexity : $O(n)$
+- Space Complexity : $O(1)$
