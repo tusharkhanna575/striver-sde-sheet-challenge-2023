@@ -41,6 +41,8 @@ vector<int> twoSum(int n, vector<int> &arr, int target) {
     return { -1, -1};
 }
 ```
+- Time Complexity : $O(n^2)$
+- Space Complexity : $O(1)$
 #### Better Approach
 ```
 vector<int> twoSum(int n, vector<int> &arr, int target) {
@@ -57,6 +59,8 @@ vector<int> twoSum(int n, vector<int> &arr, int target) {
     return { -1, -1};
 }
 ```
+- Time Complexity : $O(n * logn)$
+- Space Complexity : $O(n)$
 #### Optimal Approach
 ```
 vector<int> twoSum(vector<int>& nums, int target) {
