@@ -47,7 +47,7 @@ void sort012(vector<int> &arr) {
 - Time Complexity : $O(n)$
 - Space Complexity : $O(1)$
 
-#### Optimal
+#### Optimal Approach
 ```
 void sort012(vector<int> &arr) {
     //by using dutch national flag algorithm
