@@ -1,4 +1,8 @@
 # Striver SDE Sheet Challenge 2023
+
+### [🔗 Striver's SDE Sheet Link](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)    
+### [🔗 Linkedin Post Link](https://www.linkedin.com/posts/tusharkhanna575_striverssheetchallenge-datastructures-algorithms-activity-7071547418642685952-Wl7O?utm_source=share&utm_medium=member_desktop)
+
 |Day|Topic Name|Progress|
 |:---:|:---:|---|
 |1|Arrays - I|![](https://geps.dev/progress/33)|
