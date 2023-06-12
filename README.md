@@ -17,7 +17,7 @@
 |10|Recursion & Backtracking|![](https://geps.dev/progress/0)|
 |11|Binary Search|![](https://geps.dev/progress/0)|
 |12|Heaps|![](https://geps.dev/progress/0)|
-|13|Stacks & Queues - I|![](https://geps.dev/progress/0)|
+|13|Stacks & Queues - I|![](https://geps.dev/progress/14)|
 |14|Stacks & Queues - II|![](https://geps.dev/progress/0)|
 |15|Strings - I|![](https://geps.dev/progress/0)|
 |16|Strings - II|![](https://geps.dev/progress/0)|
