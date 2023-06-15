@@ -21,7 +21,7 @@
 |14|Stacks & Queues - II|![](https://geps.dev/progress/0)|
 |15|Strings - I|![](https://geps.dev/progress/0)|
 |16|Strings - II|![](https://geps.dev/progress/0)|
-|17|Binary Trees - I|![](https://geps.dev/progress/0)|
+|17|Binary Trees - I|![](https://geps.dev/progress/8)|
 |18|Binary Trees - II|![](https://geps.dev/progress/0)|
 |19|Binary Trees - III|![](https://geps.dev/progress/0)|
 |20|Binary Search Trees - I|![](https://geps.dev/progress/0)|
