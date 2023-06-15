@@ -1,5 +1,6 @@
 ## Given the root of a binary tree, return the inorder traversal of its nodes' values.
-![](https://assets.leetcode.com/uploads/2020/09/15/inorder_1.jpg)
+![Sample Tree](https://assets.leetcode.com/uploads/2020/09/15/inorder_1.jpg)
+
 Example 1:
 ```
 Input: root = [1,null,2,3]
