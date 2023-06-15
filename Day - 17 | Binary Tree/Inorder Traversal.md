@@ -47,7 +47,8 @@ vector<int> inorderTraversal(TreeNode* root) {
     return ans;
 }
 ```
-
+- Time Complexity : $O(n)$
+- Space Complexity : $O(n)$
 
 #### Iterative Solution
 ```
@@ -70,3 +71,5 @@ vector<int> inorderTraversal(TreeNode *root) {
     return inOrder;
 }
 ```
+- Time Complexity : $O(n)$
+- Space Complexity : $O(n)$
