@@ -1,44 +1,36 @@
-//code by @tusharkhanna
-#include<bits/stdc++.h>
-using namespace std;
+## Given an integer numRows, return the first numRows of Pascal's triangle. In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
+![text](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
-//brute
-void sort012(vector<int> &a) {
-    sort(a.begin(), a.end());
-}
+Example 1:
+```
+Input: numRows = 5
+Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+```
+Example 2:
+```
+Input: numRows = 1
+Output: [[1]]
+```
 
-//optimal -> dutch national flag algorithm
-void sort_012(vector<int> &a) {
-    int low = 0, mid = 0, high = a.size()-1;
-    while(mid <= high) {
-        if(a[mid] == 0) {
-            swap(a[low++], a[mid++]);
-        }
-        else if(a[mid] == 1) {
-            mid++;
-        }
-        else {
-            swap(a[mid], a[high--]);
-        }
-    }
-}
+Constraints:
+- `1 <= numRows <= 30`
 
-int main() {
-    int n;
-    cin>>n;
-    vector<int> a(n);
-    for(int i=0;i<n;i++) {
-        cin>>a[i];
+### Code
+```
+class Solution {
+public:
+    vector<vector<int>> generate(int n) {
+        vector<vector<int>> ans(n);
+        for(int i=0;i<n;i++) {
+            ans[i].resize(i+1);
+            ans[i][0]=ans[i][i]=1;
+            for(int j=1;j<i;j++) {
+                ans[i][j]=ans[i-1][j-1]+ans[i-1][j];
+            }
+        }
+        return ans;
     }
-    cout<<"Given array : ";
-    for(int i: a) {
-        cout<<i<<" ";
-    }
-    sort_012(a); // O(n)
-    sort012(a); //O(n*logn)
-    cout<<endl<<"Sorted array : ";
-    for(int i: a) {
-        cout<<i<<" ";
-    }
-    return 0;
-}
+};
+```
+- Time Complexity : $O(n^2)$
+- Space Complexity : $O(n^2)$
