@@ -5,7 +5,7 @@
 
 |Day|Topic Name|Progress|
 |:---:|:---:|---|
-|1|Arrays - I|![](https://geps.dev/progress/33)|
+|1|Arrays - I|![](https://geps.dev/progress/67)|
 |2|Arrays - II|![](https://geps.dev/progress/0)|
 |3|Arrays - III|![](https://geps.dev/progress/0)|
 |4|Arrays - IV|![](https://geps.dev/progress/16)|
